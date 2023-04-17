@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+
+    <title>Bate-Papo Uol</title>
+</head>
+<body>
+    <div class="header">
+        <img src="./imagens/logo.png" alt="">
+        <ion-icon name="people"></ion-icon>
+    </div>
+
+    <div class="message-container">
+        <ul></ul>
+    </div>
+
+    <div class="footer">
+        <input class="input-message" type="text" placeholder="Escreva aqui..." data-test="input-message">
+        <ion-icon name="paper-plane-outline" onclick="sendMessage()" data-test="send-message"></ion-icon> 
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
