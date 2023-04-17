@@ -42,6 +42,10 @@ ion-icon {
     margin-right: 24px;
 }
 
+.mailbox {
+    margin-bottom: 80px;
+}
+
 .footer {
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
     position: fixed;
@@ -68,4 +72,32 @@ ion-icon {
     font-weight: 400;
     font-style: italic;
     color: #000000;
+}
+
+.message-status {
+    background-color: #DCDCDC;
+}
+
+.message-all {
+    background-color: #FFFFFF;
+}
+
+.message-time {
+    display: inline-block;
+    color: #AAAAAA;
+    font-size: 1.4rem;
+}
+
+.message-content {
+    display: inline-block;
+    color: #000000;
+    font-size: 1.4rem;
+    line-height: 20px;
+}
+
+.message-content strong {
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 5px;
+    margin-left: 5px;
 }
